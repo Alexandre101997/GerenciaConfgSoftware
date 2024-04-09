@@ -35,7 +35,7 @@ function calcularIMC() {
   var resultado = document.getElementById('resultado');
   resultado.innerHTML = 'Seu IMC é: ' + imc.toFixed(2);
 }
-// Adiciona um evento de "enviar" ao formulário para chamar a função de cálculo de IMC
+// Adiciona um evento de "botão" ao formulário para chamar a função de cálculo de IMC
 document.getElementById('imcForm').addEventListener('submit', function(event) {
   event.preventDefault(); // Impede o envio do formulário padrão
   calcularIMC(); // Chama a função para calcular o IMC
